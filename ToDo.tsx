@@ -3,7 +3,7 @@ import { Input, IconButton, Button, Checkbox, Text, Box,
   VStack, HStack, Heading, Icon, Slider, Divider,
   Center, useToast
   } from 'native-base';
-import { Feather, Entypo } from '@expo/vector-icons';
+import { Entypo } from '@expo/vector-icons';
 
 interface ToDoItem{
   title: string;
