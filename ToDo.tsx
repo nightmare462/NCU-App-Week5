@@ -26,7 +26,6 @@ const ToDo = () => {
       });
       return;
     }
-    // add new todo
     setList((prevList) => {
       return [
         ...prevList,
