@@ -112,8 +112,7 @@ const ToDo = () => {
                 ml={2}
                 mr={2}
                 fontSize="2xl"
-                color= {urgencyLevelColor[item.urgencyLevel]}
-                onPress={() => handleStatusChange(itemI)}>
+                color= {urgencyLevelColor[item.urgencyLevel]}>
                 {level[item.urgencyLevel]}
               </Text>
               <Text
@@ -121,8 +120,7 @@ const ToDo = () => {
                 flexShrink={1}
                 fontSize="lg"
                 textDecorationLine={item.isCompleted ? 'line-through' : 'none'}
-                color= {item.isCompleted ? 'gray.400' : 'coolGray.800'}
-                onPress={() => handleStatusChange(itemI)}>
+                color= {item.isCompleted ? 'gray.400' : 'coolGray.800'}>
                 {item.title}
               </Text>
               <IconButton
